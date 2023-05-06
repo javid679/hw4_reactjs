@@ -1,0 +1,67 @@
+.journal {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.entry-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.entry-form h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.entry-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.entry-form input,
+.entry-form textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.entry-form button {
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.entry-form button:hover {
+  background-color: #0d8bf0;
+}
+
+.entry-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-list h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.entry {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.entry h3 {
+  font-size: 1.1rem;
+  margin-bottom: ;
+}
